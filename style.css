@@ -124,3 +124,10 @@ ul {
 li {
   margin-bottom: 0.2rem;
 }
+
+@media (max-width: 675px) {
+  #bottom-left-section, #bottom-right-section, #container {
+    width: 100%;
+    height: 100%;
+  }
+}
