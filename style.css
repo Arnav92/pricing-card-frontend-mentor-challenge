@@ -1,0 +1,126 @@
+h2, h4, p {
+  margin: 0px;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Karla";
+  font-size: 16px;
+}
+
+body {
+  padding: 20px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#container {
+  width: 625px;
+  height: 400px;
+  box-shadow: 5px 5px 35px 5px #858585;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#top-section {
+  width: 100%;
+  height: 45%;
+  padding: 30px;
+}
+
+#bottom-section {
+  width: 100%;
+  height: 55%;
+  color: white;
+}
+
+#bottom-left-section {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  background-color: rgb(42, 178, 175);
+  padding: 30px;
+}
+
+#bottom-right-section {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #30c7c4;
+  padding: 30px;
+}
+
+h2 {
+  color: rgb(42, 178, 175);
+  margin-bottom: 20px;
+}
+
+#top-section h4 {
+  color: rgb(192, 223, 52);
+  margin-bottom: 10px;
+}
+
+#top-section p {
+  color: rgb(152, 166, 189);
+}
+
+#price-container {
+  margin-bottom: 5px;
+}
+
+#Subscription-text {
+  margin-bottom: 15px;
+}
+
+#price {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+#price-frequency, #price {
+  display: inline-block;
+}
+
+#price-frequency {
+  position: relative;
+  top: -5px;
+  font-size: 0.85rem;
+  opacity: 0.5;
+  margin-left: 5px;
+}
+
+#access-text {
+  margin-bottom: 25px;
+}
+
+button {
+  font-family: "Karla";
+  color: white;
+  background-color: rgb(192, 223, 52);
+  border: 0px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 5px 10px 35px -10px rgba(30,30,30,0.65);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #B7D531;
+  transform: scale(1.01);
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+  opacity: 0.7;
+  font-size: 0.8rem;
+}
+
+li {
+  margin-bottom: 0.2rem;
+}
